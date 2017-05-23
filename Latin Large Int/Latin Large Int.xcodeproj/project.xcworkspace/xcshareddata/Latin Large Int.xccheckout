@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>64398183-D570-4C36-9B21-CD80DE6BDA37</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F410A5491D9271909C2A3965F90995AC76FAA805</key>
+		<string>https://github.com/exrich/Latin-Wells.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Latin Wells Large Int/Latin Large Int/Latin Large Int.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F410A5491D9271909C2A3965F90995AC76FAA805</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/exrich/Latin-Wells.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F410A5491D9271909C2A3965F90995AC76FAA805</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F410A5491D9271909C2A3965F90995AC76FAA805</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Latin-Wells</string>
+		</dict>
+	</array>
+</dict>
+</plist>
