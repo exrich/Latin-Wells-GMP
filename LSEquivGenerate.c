@@ -1,22 +1,5 @@
 #include "latin.h"
 #include "gmp.h"
-/*#include <stdio.h>
-#include <stdlib.h>
-#include <gmp.h>
-
-#define NUM_TYPE unsigned short int
-
-int equivalence(int n,int k,NUM_TYPE *LSVector1,NUM_TYPE *LSVector2);
-NUM_TYPE **LatinMatrix(int n, int k,int r);
-void LSCreate(int n, int k,NUM_TYPE *M,int stage);
-void setBit(NUM_TYPE *LSVector,int k,int i,int j);
-int Isbit(NUM_TYPE *LSVector,int k,int i,int j);
-void clearBit(NUM_TYPE *LSVector,int k,int i,int j);
-int *makeIntVector(int N);
-int testlatin(NUM_TYPE *M, int row, int col, int n, int stage);
-void print_vec(mpz_t *M, int size);
-int **make_m(int row, int col);
-void v_copy(NUM_TYPE *N,NUM_TYPE *M,int n);*/
 
 NUM_TYPE **LSEquivGenerate(NUM_TYPE **M,int n,int rowsM,int stage,mpz_t *count)
 {

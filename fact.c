@@ -1,6 +1,6 @@
 #include<math.h>
 
-long long unsigned int fact(int j)
+unsigned long long int fact(int j)
 {
 	switch (j) {
 		case 0: {return(1);}break;

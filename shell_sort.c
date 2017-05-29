@@ -4,7 +4,8 @@
 
 int shell_sort(int *A,int size)
 {
-	int d=size,i,j,k,swap;
+	int swap;
+	int d = size, i, j, k;
 	do {
 	d = dist(d);
 	for (i=1;i<=d;i++)

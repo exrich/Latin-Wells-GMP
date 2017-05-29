@@ -2,21 +2,12 @@
 #include <stdlib.h>
 #include "latin.h"
 
-/*#define NUM_TYPE unsigned short int
-#define BITS_PER_NUM 16
-
-		
-int shell_sort(int *A,int size);
-int Isbit(NUM_TYPE *LSVector,int k,int i,int j);
-int **make_m(int row, int col);
-int *makeIntVector(int N);
-int combtonum(int *vec,int n);*/
-
-int *row_wt(NUM_TYPE *LSVector,int n,int k)
+unsigned long long int *row_wt(NUM_TYPE *LSVector,int n,int k)
 {
-	int **Pmatrix,s,t,u,i,mask=1,*Wvec;
+	int **Pmatrix,s,t,u,i,mask=1;
+	unsigned long long int *Wvec;
 	Pmatrix = make_m(n,n);
-	Wvec = makeIntVector(n);
+	Wvec = makeLongIntVector(n);
 	for (s=0;s<=n-1;s++)
 	{
 		for (t=0;t<=n-1;t++)

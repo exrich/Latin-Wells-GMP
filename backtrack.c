@@ -1,14 +1,4 @@
 #include "latin.h"
-/*#include <stdlib.h>
-
-#define NUM_TYPE unsigned short int
-
-void setBit(NUM_TYPE *LSVector,int n,int i,int j);
-int Isbit(NUM_TYPE *LSVector,int n,int i,int j);
-void clearBit(NUM_TYPE *LSVector,int n,int i,int j);
-int *makeIntVector(int N);
-void print_vec(int *M, int size);
-long long int fact(int j);*/
 
 int backtrackfunc(NUM_TYPE *Ec,NUM_TYPE *tempcolsx,NUM_TYPE *tempcolsy,NUM_TYPE *Jx,NUM_TYPE *Jy,NUM_TYPE *S,NUM_TYPE *P,int *lev,int n,int *backtrack,int count1)
 { 

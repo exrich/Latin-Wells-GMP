@@ -114,6 +114,12 @@
     <ClCompile Include="testlatin.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="makeLongIntVector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shell_sort_long.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="latin.h">

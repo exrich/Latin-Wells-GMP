@@ -1,9 +1,9 @@
-unsigned long int fact(int j);
+#include "latin.h"
 
-int combtonum(int *vec,int n)
+unsigned long long int combtonum(int *vec,int n)
 {
-	int serial=0,mult=1,bico,j,i;
-	unsigned long int r,z=1;
+	int mult=1,j,i;
+	unsigned long long int r,z=1, serial=0, bico;
 	for (j=0;j<=n-1;j++)
 	{
 		if (vec[j]!=0)

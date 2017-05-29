@@ -9,11 +9,12 @@ int **make_m(int row, int col);
 int *makeIntVector(int N);
 int combtonum(int *vec,int n);*/
 
-int *col_wt(NUM_TYPE *LSVector,int n,int k)
+unsigned long long int *col_wt(NUM_TYPE *LSVector,int n,int k)
 {
-	int **Pmatrix,*Wvec,s,t,u,i;
+	int **Pmatrix,s,t,u,i;
+	unsigned long long int *Wvec;
 	Pmatrix = make_m(n,n);
-	Wvec = makeIntVector(n);
+	Wvec = makeLongIntVector(n);
 	for (s=0;s<=n-1;s++)
 	{
 		for (t=0;t<=n-1;t++)

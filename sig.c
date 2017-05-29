@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-long long int sig(int *Wt_vec,int n)
+unsigned long long int sig(unsigned long long int *Wt_vec,int n)
 {
-int max,a=2,i,t=1;
-long long int val=Wt_vec[0];
+int a = 2, i, t = 1;
+unsigned long long int max;
+unsigned long long int val=Wt_vec[0];
 max = Wt_vec[n-1];
 while ( a < max)
 {
