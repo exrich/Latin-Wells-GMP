@@ -5,9 +5,9 @@ NUM_TYPE **LSEquivGenerate(NUM_TYPE **M,int n,int rowsM,int stage,mpz_t *count)
 {
 	NUM_TYPE **N;
 	int i,j,*c,x=0,test=0,k,**countMN,it1=0,ns=0;
-	N = LatinMatrix(n,n,5000);c = makeIntVector(n);countMN=make_m(5000,5000);mpz_t count2[5000];
+	N = LatinMatrix(n,n,6000);c = makeIntVector(n);countMN=make_m(6000,6000);mpz_t count2[6000];
 	/*Set M[0]=N[0]*/
-	mpz_array_init (count2[0],5000,512);
+	mpz_array_init (count2[0],6000,512);
 	for (it1=0;it1<=rowsM;it1++)
 	{
 		for (i=0;i<=n-1;i++)

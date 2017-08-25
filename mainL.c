@@ -17,19 +17,19 @@ int main(void)
 {
 	int i,n;
 	unsigned long int initcount=1;
-	mpz_t count[5000];
-	mpz_array_init (count[0], 5000, 512);
+	mpz_t count[6000];
+	mpz_array_init (count[0], 6000, 512);
 	double start,finish,dur;
 	NUM_TYPE **M;
 	printf("Latin Squares Wells 1.1 Bit Based\n");
 	printf("Name: Richard Crampton\nYear: 4\nEmail Address: richard.crampton@ic.ac.uk");
 	printf("\nTime: %s ",__TIME__);
 	printf("\nDate: %s\n",__DATE__);
-	printf("\nThis program finds the number of nxn latin squares of order n!!\n\n");
-	printf("Please enter the size n x n of your latin square:");
+	printf("\nThis program finds the number of reduced n x n latin squares.\n\n");
+	printf("Please enter n:");
 	scanf("%d",&n);
 	start = (double)clock();
-	M = LatinMatrix(n,n,5000);
+	M = LatinMatrix(n,n,6000);
 	for (i=0;i<=n-1;i++)
 	{
 	setBit(M[0],n,i,i);

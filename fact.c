@@ -19,6 +19,8 @@ unsigned long long int fact(int j)
 		case 13: {return(6227020800);}break;
 		case 14: {return(87178291200);}break;
 		case 15: {return(1307674368000);}break;
+		case 16: {return(20922789888000); }break;
+		case 17: {return(355687428096000); }break;
 	}
 	return(1);
 }
